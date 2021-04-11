@@ -108,9 +108,3 @@ double osm_syscall_time(unsigned int iterations)
     return (double)(end - start) / iterations;
 }
 
-int main()
-{
-    std::cout<<"Operation Running Time: "<<osm_operation_time(1000000)<<std::endl;
-    std::cout<<"Empty Function Running Time: "<<osm_function_time(1000000)<<std::endl;
-    std::cout<<"Trap Running Time: "<<osm_syscall_time(1000000)<<std::endl;
-}
