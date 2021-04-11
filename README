@@ -1,0 +1,21 @@
+ahmadok, maherhanut
+Ahmad Okosh (314925314), Maher Hanut (319029724)
+
+FILES:
+osm.cpp
+osm.h
+
+REMARKS:
+none
+
+ANSWERS:
+WhatIdo works as follows: it should receive a single argument which is a string.
+If it doesn't receive any argument or receives multiple arguments
+it will print "Error. The program should receive a single argument. Exiting."
+If the input is correct it will do the following: 
+it will make a directory called "Welcome" inside it another directory called "To"
+and lastly it creates a file called OS2021 in which it writes in it as follows:
+"<user>
+ If you haven't read the course guidelines yet --- do it right now!
+ <arg>"
+where <user> is the cse username and <arg> is the argument for the program
